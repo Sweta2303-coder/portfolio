@@ -1,0 +1,109 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  header.hero {
+    background: linear-gradient(135deg, #0073e6, #00bfff);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 2rem;
+    background-color: #fff;
+    color: #0073e6;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .navbar {
+    background-color: #0073e6;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 1rem;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .section {
+    padding: 2rem 1rem;
+    margin-top: 2rem;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .skills-list,
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .skills-list li,
+  ul li {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .project {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact-section {
+    background-color: #f9f9f9;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0073e6;
+    color: white;
+  }
+  
